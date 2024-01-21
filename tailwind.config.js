@@ -14,6 +14,7 @@ export default {
         'secondary': '#0062F7',
         'srBlack': '#292C33',
         'srWhite': '#F7F7F7',
+        'navbar': 'rgba(6, 0, 86, 0.70)',
       },
     },
   },

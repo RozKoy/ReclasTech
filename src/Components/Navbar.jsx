@@ -27,7 +27,7 @@ const Navbar = () => {
     <div className="">
     <div
       className={`fixed hidden md:block w-full z-50 transition-all duration-300 ease-in-out ${
-        scrolled ? 'bg-primary' : ''
+        scrolled ? 'bg-navbar' : ''
       }`}
     >
       <div className="wrap py-4 m-auto container flex justify-between items-center">

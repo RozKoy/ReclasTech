@@ -23,9 +23,13 @@ const Home = () => {
       <Navbar />
       <div id="Home" className="home  h-screen w-full">
         <div className="ornament absolute right-0 bottom-0 z-0">
-          <img className="h-[680px] object-cover" src="Images/ornament2.png" alt="" />
+          <img
+            className="h-[680px] object-cover"
+            src="Images/ornament2.png"
+            alt=""
+          />
         </div>
-        <div className="container md:px-0 px-3 m-auto flex flex-wrap items-center justify-between h-full">
+        <div className="container md:px-0 px-3 m-auto flex items-center justify-between h-full">
           <div data-aos="fade-up" className="left">
             <div className="wrap-head md:w-[514px] text-white">
               <div className="head text-[56px] md:text-[86px] font-bold">
@@ -54,8 +58,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+
       {/* About us */}
-      <div id="about" className="bg-srWhite py-[60px]">
+      <div id="about" className="bg-srWhite py-[60px] md:py-[80px]">
         <div className="container m-auto md:px-0 px-3">
           <div
             data-aos="fade-up"
@@ -86,7 +91,7 @@ const Home = () => {
                   className="btn rounded-[15px] px-6 py-2 transition-all duration-300  hover:bg-secondary bg-primary flex items-center gap-1"
                 >
                   <img
-                    className="h-[35px] md:h-[40px]"
+                    className="h-[35px] md:h-[40px] w-[35px] md:w-[40px] flex-shrink-0"
                     src="Images/play.png"
                     alt=""
                   />
@@ -101,7 +106,7 @@ const Home = () => {
               className="right w-full md:w-[50%] flex justify-center order-2"
             >
               <img
-                className="md:w-[340px] w-[180px]"
+                className="md:w-[340px] w-[180px] object-cover"
                 src="Images/reclas.png"
                 alt=""
               />
@@ -112,7 +117,7 @@ const Home = () => {
       {/* About us */}
 
       {/* service */}
-      <div id="service" className="service py-[60px] px-3 md:px-0">
+      <div id="service" className="service py-[60px] md:py-[80px] px-3 md:px-0">
         <div
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"
@@ -159,7 +164,7 @@ const Home = () => {
       {/* service */}
 
       {/* product */}
-      <div id="product" className="product bg-srWhite py-[60px] md:px-0 px-3">
+      <div id="product" className="product bg-srWhite py-[60px] md:py-[80px] md:px-0 px-3">
         <div
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-black"
@@ -206,7 +211,7 @@ const Home = () => {
       {/* product */}
 
       {/* education */}
-      <div id="education" className="education py-[60px] md:px-0 px-3">
+      <div id="education" className="education py-[60px] md:py-[80px] md:px-0 px-3">
         <div
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"
@@ -233,7 +238,7 @@ const Home = () => {
       {/* education */}
 
       {/* roadmap */}
-      <div className="roadmap py-[60px] md:px-0 px-3 bg-srWhite">
+      <div className="roadmap py-[60px] md:py-[80px] md:px-0 px-3 bg-srWhite">
         <div
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 "
@@ -254,21 +259,27 @@ const Home = () => {
       {/* roadmap */}
 
       {/* Testi */}
-      <div id="testi" className="testi py-[60px] md:px-0 px-3">
-        <div  data-aos="fade-up" className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white">
+      <div id="testi" className="testi py-[60px] md:py-[80px] md:px-0 px-3">
+        <div
+          data-aos="fade-up"
+          className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"
+        >
           Testimoni
         </div>
-        <div  data-aos="fade-up" className="subhead text-[22px] md:text-[27px] text-white m-auto container font-bold mb-4">
+        <div
+          data-aos="fade-up"
+          className="subhead text-[22px] md:text-[27px] text-white m-auto container font-bold mb-4"
+        >
           “What People Said About Us ?”
         </div>
-        <div  data-aos="fade-up" className="wrap m-auto container">
+        <div data-aos="fade-up" className="wrap m-auto container">
           <CardTesti />
         </div>
       </div>
       {/* Testi */}
 
       {/* role */}
-      <div className="role py-[60px] bg-srWhite">
+      <div className="role py-[60px] md:py-[80px] bg-srWhite">
         <div
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px]  font-bold text-center mb-5 "
@@ -285,9 +296,12 @@ const Home = () => {
       {/* role */}
 
       {/* FOOTER */}
-      <div id="contact" className="footer py-[60px] mt-10">
+      <div id="contact" className="footer py-[60px] md:py-[80px]">
         <div className="wrap px-3 md:px-0 flex-wrap text-white container m-auto flex min-h-[250px] md:justify-evenly gap-6 ">
-          <div  data-aos="fade-up" className="left md:flex-nowrap flex-wrap flex gap-3 ">
+          <div
+            data-aos="fade-up"
+            className="left md:flex-nowrap flex-wrap flex gap-3 "
+          >
             <div className="logo flex justify-center md:w-[200px] w-full">
               <img
                 className="md:h-[174px] h-[130px]"
@@ -305,7 +319,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div  data-aos="fade-up" className="right gap-[30px] flex justify-between  w-full md:w-[40%]">
+          <div
+            data-aos="fade-up"
+            className="right gap-[30px] flex justify-between  w-full md:w-[40%]"
+          >
             <div className="flex gap-6 flex-col  justify-between">
               <div className="nav flex gap-[100px]">
                 <div className="navi flex flex-col gap-3 text-[14px]">
@@ -328,7 +345,8 @@ const Home = () => {
                 © 2024 Reclas Tech. All rights reserved.
               </div>
             </div>
-            <a  data-aos="fade-up"
+            <a
+              data-aos="fade-up"
               href="#Home"
               className="arow flex justify-center items-center bg-white rounded-full w-[52px] h-[52px] hover:bg-gray-200 transition-all duration-300"
             >
