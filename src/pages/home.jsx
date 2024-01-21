@@ -173,7 +173,7 @@ const Home = () => {
         </div>
         <div className="wrap flex flex-wrap md:flex-nowrap gap-3 m-auto container h-full">
           <div data-aos="fade-up" className="left w-[100%] md:w-[40%]">
-            <div className="subhead text-[22px] md:text-[27px] text-primary w-[544px] font-bold">
+            <div className="subhead text-[22px] md:text-[27px] text-primary max-w-[544px] font-bold">
               Every product has a story, and we are committed to creating great
               stories.
             </div>
