@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Burger from "./Icon/Burger"
+import Close from "./Icon/Close"
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -54,7 +56,7 @@ const Navbar = () => {
               <img src="Images/logo1.png" alt="" />
             </div>
             <div className="res bg-primary2 rounded-md w-[50px] h-[50px] flex justify-center items-center text-[40px] font-bold cursor-pointer" onClick={handleBurger}>
-            {burger ? "x" : "="}
+            {burger ? <Close /> : <Burger /> }
             </div>
           </div>
 

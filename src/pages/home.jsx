@@ -42,7 +42,7 @@ const Home = () => {
             </div>
             <div className="btnget mt-16">
               <a
-                href=""
+                href="#about"
                 className="bg-white hover:bg-secondary px-5 py-3 rounded-[20px] text-[18px] md:text-[20px] font-bold text-srBlack hover:text-white transition-all duration-300"
               >
                 Get Started

@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Star from "./Icon/Star"
 
-
 const CardTesti2 = () => {
   return (
     <div className="px-3">
