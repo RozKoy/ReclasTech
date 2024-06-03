@@ -3,7 +3,7 @@
 
 const CardService = (props) => {
   return (
-    <div className="card hover:scale-105 transa flex-grow-0 flex-shrink-0 bg-white rounded-[20px] shadow-xl py-8 px-7 w-[355px] hover:bg-primary2 hover:text-white transition-all duration-300">
+    <div className="card hover:scale-105 transa flex-grow-0 flex-shrink-0 bg-white rounded-[20px] shadow-xl py-8 px-7 w-[365px] hover:bg-primary2 hover:text-white transition-all duration-300">
       <div className="icon bg-[#F4F4F4] inline-block p-3 rounded-lg">
         {props.children}
       </div>

@@ -74,16 +74,23 @@ const Home = () => {
               data-aos-offset="100"
               className="wrap-lefft order-4 md:order-1 w-[485px] text-justify"
             >
-              <div className="subhead text-[22px] md:text-[27px] text-primary font-bold">
+              {/* <div className="subhead text-[22px] md:text-[27px] text-primary font-bold">
                 Behind each of our products and services, there is a talented
                 team dedicated to providing the best.
-              </div>
+              </div> */}
               <div className="teks mt-3 text-[16px] md:text-[18px] text-justify">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, Lorem Ipsum is simply dummy text of the
-                printing and typesetting industry. Lorem Ipsum has been the
-                industrys standard dummy text ever since the 1500s.
+                Kami memulai sebagai programmer baru diluar perguruan tinggi dan
+                berhasil membangun tim yang sekarang menjadi salah satu tim
+                pengembangan perangkat lunak di Bandar Lampung. Kami terdiri
+                dari 11 orang. Kami telah menyelesaikan beberapa proyek yang
+                sesuai dengan kebutuhan dan harapan klien. Kami tidak pernah
+                takut gagal jika ini akan menuntun kami untuk mempelajari
+                sesuatu yang baru dan memperluas wawasan profesional dan
+                proibadi kami. Kami percaya bahwa komunikasi sangat penting
+                untuk keberhasilan penyelesaian proyek kami. Inilah sebabnya
+                mengapa kami mendengarkan dengan cermat dari klien kami dan kami
+                menyambut baik terhadap umpan balik mereka di setiap tahap
+                proses pengembangan web.
               </div>
               <div className="inline-block mt-5">
                 <a
@@ -130,31 +137,31 @@ const Home = () => {
           </div>
         </div>
         <div data-aos="fade-up" className="wrap mt-5 relative overflow-hidden">
-          <div className="hero m-auto container h-[400px] md:h-[500px] md:block flex justify-center">
-            <img src="Images/service2.png" alt="" />
+          <div className="hero m-auto container h-[400px]  md:h-[490px] md:block flex justify-center">
+            <img className=" h-full" src="Images/service2.png" alt="" />
           </div>
-          <div className="wrap-card px-0 md:px-5 h-[400px] flex items-center  gap-4 md:absolute overflow-x-auto no-scrollbar scroll-smooth md:top-[20px]  right-0 md:w-[70%] w-full">
+          <div className="wrap-card px-0 md:px-5 flex items-center  gap-4 md:absolute overflow-x-auto no-scrollbar scroll-smooth md:top-[20px] p-3  right-0 md:w-[70%] w-full">
             <CardService
-              service="Team Profesional"
-              teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+              service="Web Application Dev"
+              teks="Tim akan memproses pengembangan perangkat lunak yang bertujuan untuk membuat aplikasi yang dapat diakses melalui web browser. Proses pengembangan ini mencakup berbagai langkah mulai dari perencanaan, desain, pengembangan, pengujian, hingga implementasi aplikasi web yang interaktif dan fungsional."
             >
               <Team />
             </CardService>
             <CardService
-              service="Team Profesional"
-              teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+              service="Mobile Application Dev"
+              teks="Tim akan membuat aplikasi perangkat lunak yang dirancang khusus untuk digunakan pada perangkat mobile seperti smartphone dan tablet. Proses ini melibatkan serangkaian langkah yang mirip dengan pengembangan aplikasi web, tetapi dengan fokus pada platform mobile dan karakteristik uniknya sesuai dengan kebutuhan klien."
             >
               <Team />
             </CardService>
             <CardService
-              service="Team Profesional"
-              teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+              service="Custom Software Dev"
+              teks="Tim akan memproses pengembangan perangkat lunak yang dirancang khusus untuk memenuhi kebutuhan unik dan spesifik suatu organisasi atau individu. Berbeda dengan perangkat lunak yang sudah jadi yang umumnya dirancang untuk penggunaan umum, perangkat lunak kustom dibangun dari awal atau dimodifikasi secara mendalam."
             >
               <Team />
             </CardService>
             <CardService
-              service="Team Profesional"
-              teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+              service="Graphic Design"
+              teks="Tim akan menciptakan dan menggabungkan elemen visual, seperti gambar, teks, dan grafik, untuk menyampaikan pesan atau informasi dengan cara yang efektif dan menarik. Ini adalah bidang seni dan desain yang melibatkan kreativitas, pemahaman tentang prinsip desain, dan penggunaan alat desain grafis komputer."
             >
               <Team />
             </CardService>
@@ -164,7 +171,10 @@ const Home = () => {
       {/* service */}
 
       {/* product */}
-      <div id="product" className="product bg-srWhite py-[60px] md:py-[80px] md:px-0 px-3">
+      <div
+        id="product"
+        className="product bg-srWhite py-[60px] md:py-[80px] md:px-0 px-3"
+      >
         <div
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-black"
@@ -211,7 +221,10 @@ const Home = () => {
       {/* product */}
 
       {/* education */}
-      <div id="education" className="education py-[60px] md:py-[80px] md:px-0 px-3">
+      <div
+        id="education"
+        className="education py-[60px] md:py-[80px] md:px-0 px-3"
+      >
         <div
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"

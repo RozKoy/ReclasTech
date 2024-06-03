@@ -6,6 +6,9 @@ import UI from "./Role/UI";
 import PM from "./Role/PM";
 import FE from "./Role/FE";
 import BE from "./Role/BE";
+import ML from "./Role/ML";
+import DO from "./Role/DO";
+import DG from "./Role/ML";
 
 const PM1 = () => (
   <div className=" w-full">
@@ -32,17 +35,17 @@ const BE2 = () => (
 
 const ML2 = () => (
   <div className=" w-full flex justify-center">
-    <CardRole img="Images/role3.png" nama="TAMTAM" role="Mechine Learning" />
+    <ML />
   </div>
 );
 const DV2 = () => (
   <div className=" w-full flex justify-center">
-    <CardRole img="Images/role3.png" nama="ICAL" role="DevOps" />
+    <DO />
   </div>
 );
 const DM2 = () => (
   <div className=" w-full flex justify-center">
-    <CardRole img="Images/role3.png" nama="APAN" role="Digital Marketing" />
+    <DG />
   </div>
 );
 
