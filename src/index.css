@@ -23,6 +23,7 @@ body{
 /* Menyesuaikan warna latar belakang dan lebar scrollbar */
 ::-webkit-scrollbar {
   width: 7px;
+  height: 7px;
 }
 
 /* Warna track scrollbar */

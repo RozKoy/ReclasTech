@@ -36,12 +36,12 @@ const Navbar = () => {
         </div>
         <div className="nav flex gap-7 text-[17px] text-white">
           <a href="#Home" className="font-bold">
-            Home
+            Beranda
           </a>
-          <a href="#about">About Us</a>
-          <a href="#service">Service</a>
+          <a href="#about">Tentang</a>
+          <a href="#service">Layanan</a>
           <a href="#testi">Testimoni</a>
-          <a href="#contact">Contact Us</a>
+          <a href="#contact">Kontak</a>
         </div>
       </div>
     </div>
@@ -62,12 +62,12 @@ const Navbar = () => {
 
           <div className={`wrap ${burger ? "flex opacity-100" : "hidden opacity-0 "}  bg-primary w-full items-center flex-col gap-5 transition-all duration-500`}>
             <a href="#Home" className="font-bold">
-              Home
+              Beranda
             </a>
-            <a className="hover:font-bold transition-all duration-300" href="#about">About Us</a>
-            <a  className="hover:font-bold transition-all duration-300" href="#service">Service</a>
+            <a className="hover:font-bold transition-all duration-300" href="#about">Tentang</a>
+            <a  className="hover:font-bold transition-all duration-300" href="#service">Layanan</a>
             <a  className="hover:font-bold transition-all duration-300" href="#testi">Testimoni</a>
-            <a  className="hover:font-bold transition-all duration-300" href="#contact">Contact Us</a>
+            <a  className="hover:font-bold transition-all duration-300" href="#contact">Kontak</a>
           </div>
         </div>
       </div>

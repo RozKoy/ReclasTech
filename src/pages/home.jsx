@@ -39,17 +39,19 @@ const Home = () => {
                 Your Vision, Our Code
               </div>
               <div className="teks text-[14px] md:text-[18px] text-justify">
-                Innovative software development team with a focus on quality.
-                With expertise in development, design and project management, we
-                are ready to bring your ideas to life.
+                Selamat datang di Reclas Tech, di mana inovasi bertemu dengan
+                kualitas. Tim ahli kami dalam pengembangan perangkat lunak,
+                desain kreatif, dan manajemen proyek siap untuk mewujudkan
+                ide-ide brilian Anda menjadi kenyataan. Mari ciptakan masa depan
+                bersama!
               </div>
             </div>
             <div className="btnget mt-16">
               <a
                 href="#about"
-                className="bg-white hover:bg-secondary px-5 py-3 rounded-[20px] text-[18px] md:text-[20px] font-bold text-srBlack hover:text-white transition-all duration-300"
+                className="bg-white hover:bg-secondary px-8 py-3 rounded-[20px] text-[18px] md:text-[19px] font-bold text-srBlack hover:text-white transition-all duration-300"
               >
-                Get Started
+                Ayo Jelajahi
               </a>
             </div>
           </div>
@@ -66,7 +68,7 @@ const Home = () => {
             data-aos="fade-up"
             className="head text-[35px] md:text-[40px] font-bold text-center mb-5"
           >
-            ABOUT US
+            TENTANG KAMI
           </div>
           <div className="wrap flex flex-wrap justify-between items-center ">
             <div
@@ -74,11 +76,10 @@ const Home = () => {
               data-aos-offset="100"
               className="wrap-lefft order-4 md:order-1 w-[485px] text-justify"
             >
-              {/* <div className="subhead text-[22px] md:text-[27px] text-primary font-bold">
-                Behind each of our products and services, there is a talented
-                team dedicated to providing the best.
-              </div> */}
-              <div className="teks mt-3 text-[16px] md:text-[18px] text-justify">
+              <div className="subhead text-[22px] md:text-[27px] text-primary font-bold">
+                Awal Perjalanan Dari Reclas Tech
+              </div>
+              <div className="teks mt-1 text-[16px] md:text-[18px] text-justify">
                 Kami memulai sebagai programmer baru diluar perguruan tinggi dan
                 berhasil membangun tim yang sekarang menjadi salah satu tim
                 pengembangan perangkat lunak di Bandar Lampung. Kami terdiri
@@ -92,7 +93,8 @@ const Home = () => {
                 menyambut baik terhadap umpan balik mereka di setiap tahap
                 proses pengembangan web.
               </div>
-              <div className="inline-block mt-5">
+              {/* video */}
+              {/* <div className="inline-block mt-5">
                 <a
                   href=""
                   className="btn rounded-[15px] px-6 py-2 transition-all duration-300  hover:bg-secondary bg-primary flex items-center gap-1"
@@ -106,7 +108,7 @@ const Home = () => {
                     Click on our short profile video{" "}
                   </div>
                 </a>
-              </div>
+              </div> */}
             </div>
             <div
               data-aos="fade-up"
@@ -129,18 +131,18 @@ const Home = () => {
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"
         >
-          SERVICE
+          LAYANAN
         </div>
         <div data-aos="fade-up" className="container m-auto">
           <div className="subhead text-[22px] md:text-[27px] text-white w-[304px] font-bold">
-            Explore Our Services With Just One Click
+            Layanan Yang Kami Sediakan Untuk Membantu Bisnis Anda
           </div>
         </div>
         <div data-aos="fade-up" className="wrap mt-5 relative overflow-hidden">
           <div className="hero m-auto container h-[400px]  md:h-[490px] md:block flex justify-center">
             <img className=" h-full" src="Images/service2.png" alt="" />
           </div>
-          <div className="wrap-card px-0 md:px-5 flex items-center  gap-4 md:absolute overflow-x-auto no-scrollbar scroll-smooth md:top-[20px] p-3  right-0 md:w-[70%] w-full">
+          <div className="wrap-card px-0 md:px-5 flex items-center  gap-4 md:absolute overflow-x-auto  scroll-smooth md:top-[20px] p-3 py-5  right-0 md:w-[70%] w-full">
             <CardService
               service="Web Application Dev"
               teks="Tim akan memproses pengembangan perangkat lunak yang bertujuan untuk membuat aplikasi yang dapat diakses melalui web browser. Proses pengembangan ini mencakup berbagai langkah mulai dari perencanaan, desain, pengembangan, pengujian, hingga implementasi aplikasi web yang interaktif dan fungsional."
@@ -179,13 +181,13 @@ const Home = () => {
           data-aos="fade-up"
           className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-black"
         >
-          PRODUCT
+          PRODUK
         </div>
         <div className="wrap flex flex-wrap md:flex-nowrap gap-3 m-auto container h-full">
           <div data-aos="fade-up" className="left w-[100%] md:w-[40%]">
             <div className="subhead text-[22px] md:text-[27px] text-primary max-w-[544px] font-bold">
-              Every product has a story, and we are committed to creating great
-              stories.
+              Beberapa produk yang telah kami ciptakan. Ayo, mulai perjalanan
+              inovasi Anda dengan kami!
             </div>
             <div className="img mt-5">
               <img src="Images/product.png" alt="" />
@@ -195,25 +197,47 @@ const Home = () => {
           <div data-aos="fade-up" className="right w-[100%] md:w-[60%] ">
             <div className="wrap-card flex flex-col gap-3  h-[550px] overflow-y-auto md:px-3 px-0">
               <CardProduct
-                img="Images/produk1.png"
-                teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                img="Images/pro1.jpg"
+                title="Bimbel Griselda"
+                teks="Bimbel Griselda merupakan sebuah website bimbel yang menyediakan layanan bimbel baik dari sekolah dasar hingga atas dan juga terbuka untuk umum dalam dunia pendidikan."
               />
               <CardProduct
-                img="Images/produk1.png"
-                teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                img="Images/pro2.jpg"
+                title="PT. ElyNaz IndoMasr Global"
+                teks="PT. ElyNaz IndoMasr Global merupakan sebuah website company profile yang menampilkan profile dari PT. Elynaz IndoMasr yang bergerak pada bidang Home Cleaning dan Catering."
               />
               <CardProduct
-                img="Images/produk1.png"
-                teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                img="Images/pro3.jpg"
+                title="POS Yang's Grosir"
+                teks="POS Yang's Grosir merupakan sebuah website point of sale atau kasir yang dapat melakukan transaksi belaja dari konsumen serta dapat menampilkan laporan keuangn dari toko retail."
               />
               <CardProduct
-                img="Images/produk1.png"
-                teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                img="Images/pro4.jpg"
+                title="Slaxx Distro Store"
+                teks="Slaxx Distro Store merupakan sebuah website toko distro baju yang menampilkan produk serta dapat melakukan transaksi pembelian dari produk baju yang tersedia dalam website."
               />
               <CardProduct
-                img="Images/produk1.png"
-                teks="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+                img="Images/pro4a.jpg"
+                title="Kedai Bu Titin"
+                teks="Kedai Bu Titin merupakan sebuah website warung makan ayam geprek dimana konsumen dapat memesan melalui website serta toko dapat mencatat inventaris seperti bahan baku toko."
               />
+              <CardProduct
+                img="Images/pro5.jpg"
+                title="BUBOO Book Store"
+                teks="BuBoo Store Book merupakan aplikasi toko buku online dimana konsumen dapat melihat berbagai daftar buku yang dijual dan dapat melakukan pembelian didalam website.
+"
+              />
+              <CardProduct
+                img="Images/pro5a.jpg"
+                title="Toko Sayuran Online"
+                teks="Toko Sayuran Online merupakan aplikasi toko sayuran dimana konsumen dapat melihat berbagai sayuran yang dijual dan dapat melakukan pembelian didalam website secara online."
+              />
+              <CardProduct
+                img="Images/pro6.jpg"
+                title="Game Petualangan Si Pele"
+                teks="Game Petualangan Si Pele merupakan sebuah game yang memiliki alur dimana seorang anak bernama pele akan mengalami suatu kejadian mistis dalam perjalanan menuju rumah."
+              />
+
             </div>
           </div>
         </div>
@@ -234,7 +258,7 @@ const Home = () => {
         <div className="wrap flex flex-wrap md:flex-nowrap gap-3 m-auto container h-full">
           <div data-aos="fade-up" className="left flex flex-col  md:w-[30%]">
             <div className="subhead text-[22px] md:text-[27px] text-white font-bold">
-              Learning is the best investment for the future.
+              Belajar adalah investasi terbaik untuk masa depan.
             </div>
             <div className="img md:mt-24 mt-10 flex justify-center">
               <img src="Images/education.png" alt="" />
@@ -242,7 +266,7 @@ const Home = () => {
           </div>
           <div className="center hidden md:block w-[2px] bg-white"></div>
           <div data-aos="fade-up" className="right w-full md:w-[70%] ">
-            <div className="wrap-card flex flex-col gap-3 md:h-[550px] h-[300px] overflow-y-auto">
+            <div className="wrap-card flex flex-col gap-3 md:h-[500px] h-[300px] overflow-y-auto">
               <CouPro />
             </div>
           </div>
@@ -262,10 +286,10 @@ const Home = () => {
           data-aos="fade-up"
           className="subhead text-[22px] md:text-[27px] text-primary md:text-start text-center m-auto container font-bold"
         >
-          “Flow In Project Creation”
+          Peta Jalan Pembuatan Proyek
         </div>
-        <div data-aos="fade-up" className="wrap mt-5">
-          <Road />
+        <div data-aos="fade-up" className="wrap mt-5 container m-auto ">
+          {/* <Road /> */}
           <RoadM />
         </div>
       </div>
