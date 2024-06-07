@@ -22,7 +22,7 @@ const Home = () => {
     <div className="overflow-hidden">
       <Navbar />
       <div id="Home" className="home  h-screen w-full">
-        <div className="ornament absolute right-0 bottom-0 z-0">
+        <div className="ornament absolute md:block hidden right-0 bottom-0 z-0">
           <img
             className="h-[680px] object-cover"
             src="Images/ornament2.png"
@@ -86,10 +86,10 @@ const Home = () => {
                 dari 11 orang. Kami telah menyelesaikan beberapa proyek yang
                 sesuai dengan kebutuhan dan harapan klien. Kami tidak pernah
                 takut gagal jika ini akan menuntun kami untuk mempelajari
-                sesuatu yang baru dan memperluas wawasan profesional dan
-                proibadi kami. Kami percaya bahwa komunikasi sangat penting
-                untuk keberhasilan penyelesaian proyek kami. Inilah sebabnya
-                mengapa kami mendengarkan dengan cermat dari klien kami dan kami
+                sesuatu yang baru dan memperluas wawasan profesional dan pribadi
+                kami. Kami percaya bahwa komunikasi sangat penting untuk
+                keberhasilan penyelesaian proyek kami. Inilah sebabnya mengapa
+                kami mendengarkan dengan cermat dari klien kami dan kami
                 menyambut baik terhadap umpan balik mereka di setiap tahap
                 proses pengembangan web.
               </div>
@@ -139,7 +139,7 @@ const Home = () => {
           </div>
         </div>
         <div data-aos="fade-up" className="wrap mt-5 relative overflow-hidden">
-          <div className="hero m-auto container h-[400px]  md:h-[490px] md:block flex justify-center">
+          <div className="hero m-auto container h-[300px]  md:h-[490px] md:block flex justify-center">
             <img className=" h-full" src="Images/service2.png" alt="" />
           </div>
           <div className="wrap-card px-0 md:px-5 flex items-center  gap-4 md:absolute overflow-x-auto  scroll-smooth md:top-[20px] p-3 py-5  right-0 md:w-[70%] w-full">
@@ -190,7 +190,7 @@ const Home = () => {
               inovasi Anda dengan kami!
             </div>
             <div className="img mt-5">
-              <img src="Images/product.png" alt="" />
+              <img className="h-[270px] m-auto md:h-auto" src="Images/product.png" alt="" />
             </div>
           </div>
           <div className="center hidden md:block w-[2px] bg-primary"></div>
@@ -237,7 +237,6 @@ const Home = () => {
                 title="Game Petualangan Si Pele"
                 teks="Game Petualangan Si Pele merupakan sebuah game yang memiliki alur dimana seorang anak bernama pele akan mengalami suatu kejadian mistis dalam perjalanan menuju rumah."
               />
-
             </div>
           </div>
         </div>
@@ -260,13 +259,13 @@ const Home = () => {
             <div className="subhead text-[22px] md:text-[27px] text-white font-bold">
               Belajar adalah investasi terbaik untuk masa depan.
             </div>
-            <div className="img md:mt-24 mt-10 flex justify-center">
+            <div className="img w-[90%] m-auto md:w-auto md:mt-24 mt-4 flex justify-center">
               <img src="Images/education.png" alt="" />
             </div>
           </div>
           <div className="center hidden md:block w-[2px] bg-white"></div>
           <div data-aos="fade-up" className="right w-full md:w-[70%] ">
-            <div className="wrap-card flex flex-col gap-3 md:h-[500px] h-[300px] overflow-y-auto">
+            <div className="wrap-card flex flex-col gap-3 md:h-[500px] h-[210px] overflow-y-auto">
               <CouPro />
             </div>
           </div>
@@ -307,7 +306,7 @@ const Home = () => {
           data-aos="fade-up"
           className="subhead text-[22px] md:text-[27px] text-white m-auto container font-bold mb-4"
         >
-          “What People Said About Us ?”
+          Apa Yang Mereka Rasakan Dengan Reclas Tech
         </div>
         <div data-aos="fade-up" className="wrap m-auto container">
           <CardTesti />
@@ -348,10 +347,10 @@ const Home = () => {
             </div>
             <div className="alamat w-[300px] flex flex-col justify-between gap-3">
               <div className="add text-[20px] md:text-[24px] text-white">
-                123 Market St. #22B Charlottesville, California 44635
+                Bandar Lampung, Lampung
               </div>
               <div className="wrap text-[14px] underline">
-                <div className="no">(434) 546-4356</div>
+                <div className="no">083838485199</div>
                 <div className="email mt-2 md:mt-4">reclastech@gmail.com</div>
               </div>
             </div>
@@ -363,19 +362,55 @@ const Home = () => {
             <div className="flex gap-6 flex-col  justify-between">
               <div className="nav flex gap-[100px]">
                 <div className="navi flex flex-col gap-3 text-[14px]">
-                  <a className="font-bold" href="">
-                    Home
+                  <a className="font-bold" href="#Home">
+                    Beranda
                   </a>
-                  <a href="">About</a>
-                  <a href="">Service</a>
-                  <a href="">Testimoni</a>
-                  <a href="">Contact Us</a>
+                  <a href="#about">Tentang</a>
+                  <a href="#service">Layanan</a>
+                  <a href="#testi">Testimoni</a>
+                  <a href="#contact">Kontak</a>
                 </div>
                 <div className="sosmed flex flex-col gap-3 text-[14px]">
-                  <a href="">Instagram</a>
-                  <a href="">Github</a>
-                  <a href="">Linkedin</a>
-                  <a href="">WhatsApp</a>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/reclas_tech/"
+                    className="wrap flex items-center gap-1"
+                  >
+                    <div className="icon">
+                      <img className="w-[15px]" src="Images/ig.svg" alt="" />
+                    </div>
+                    <div className="hover:font-semibold">Instagram</div>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/reclas-tech"
+                    className="wrap flex items-center gap-1"
+                  >
+                    <div className="icon">
+                      <img className="w-[15px]" src="Images/git.svg" alt="" />
+                    </div>
+                    <div className="hover:font-semibold">Github</div>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="mailto:reclastech@gmail.com"
+                    className="wrap flex items-center gap-1"
+                  >
+                    <div className="icon">
+                      <img className="w-[15px]" src="Images/email.svg" alt="" />
+                    </div>
+                    <div className="hover:font-semibold">Email</div>
+                  </a>
+                  <a
+                    target="_blank"
+                    href="https://wa.me/6283838485199"
+                    className="wrap flex items-center gap-1"
+                  >
+                    <div className="icon">
+                      <img className="w-[15px]" src="Images/wa.svg" alt="" />
+                    </div>
+                    <div className="hover:font-semibold">WhatsApp</div>
+                  </a>
                 </div>
               </div>
               <div className="wm text-[14px] text-center md:text-start hidden md:block">
