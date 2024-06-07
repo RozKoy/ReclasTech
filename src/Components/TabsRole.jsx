@@ -8,7 +8,7 @@ import FE from "./Role/FE";
 import BE from "./Role/BE";
 import ML from "./Role/ML";
 import DO from "./Role/DO";
-import DG from "./Role/ML";
+import DG from "./Role/DG";
 
 const PM1 = () => (
   <div className=" w-full">
