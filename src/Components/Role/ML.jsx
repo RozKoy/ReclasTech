@@ -25,7 +25,7 @@ const ML = () => {
         <Slider {...settings}>
           <div className="">
             <div className="py-2 bg-srWhite md:mr-5 mr-0 pb-7 justify-center flex md:justify-end text-center">
-            <CardRole img="Images/role3.png" nama="AFFAN" role="Digital Marketing" />
+            <CardRole img="Images/role3.png" nama="TAMTAM" role="Machine Learning" />
             </div>
           </div>
         </Slider>
