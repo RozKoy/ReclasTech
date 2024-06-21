@@ -21,15 +21,27 @@ const Home = () => {
   return (
     <div className="overflow-hidden">
       <Navbar />
-      <div id="Home" className="home  h-screen w-full">
-        <div className="ornament absolute md:block hidden right-0 bottom-0 z-0">
+      <meta
+        name="description"
+        content="Selamat datang di Reclas Tech, di mana inovasi bertemu dengan
+                kualitas. Tim ahli kami dalam pengembangan perangkat lunak,
+                desain kreatif, dan manajemen proyek siap untuk mewujudkan
+                ide-ide brilian Anda menjadi kenyataan. Mari ciptakan masa depan
+                bersama!"
+      />
+      <meta
+        name="keywords"
+        content="Reclas, Inovatif, Developer, Inovasi, ReclasTech, teknologi terkini, pembangunan aplikasi, solusi digital"
+      ></meta>
+      <div id="Home" className="w-full h-screen home">
+        <div className="absolute bottom-0 right-0 z-0 hidden ornament md:block">
           <img
             className="h-[680px] object-cover"
             src="Images/ornament2.png"
-            alt=""
+            alt="Reclas Tech"
           />
         </div>
-        <div className="container md:px-0 px-3 m-auto flex items-center justify-between h-full">
+        <div className="container flex items-center justify-between h-full px-3 m-auto md:px-0">
           <div data-aos="fade-up" className="left">
             <div className="wrap-head md:w-[514px] text-white">
               <div className="head text-[56px] md:text-[86px] font-bold">
@@ -46,7 +58,7 @@ const Home = () => {
                 bersama!
               </div>
             </div>
-            <div className="btnget mt-16">
+            <div className="mt-16 btnget">
               <a
                 href="#about"
                 className="bg-white hover:bg-secondary px-8 py-3 rounded-[20px] text-[18px] md:text-[19px] font-bold text-srBlack hover:text-white transition-all duration-300"
@@ -55,22 +67,26 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div data-aos="fade-left" className="right z-10 hidden lg:block">
-            <img className="h-[484px] " src="Images/hero.png" alt="" />
+          <div data-aos="fade-left" className="z-10 hidden right lg:block">
+            <img
+              className="h-[484px]"
+              src="Images/hero.png"
+              alt="Reclas Tech"
+            />
           </div>
         </div>
       </div>
 
       {/* About us */}
       <div id="about" className="bg-srWhite py-[60px] md:py-[80px]">
-        <div className="container m-auto md:px-0 px-3">
+        <div className="container px-3 m-auto md:px-0">
           <div
             data-aos="fade-up"
             className="head text-[35px] md:text-[40px] font-bold text-center mb-5"
           >
             TENTANG KAMI
           </div>
-          <div className="wrap flex flex-wrap justify-between items-center ">
+          <div className="flex flex-wrap items-center justify-between wrap ">
             <div
               data-aos="fade-up"
               data-aos-offset="100"
@@ -117,7 +133,7 @@ const Home = () => {
               <img
                 className="md:w-[340px] w-[180px] object-cover"
                 src="Images/reclas.png"
-                alt=""
+                alt="Reclas Tech adalah perusahaan pengembangan perangkat lunak yang berlokasi di Bandar Lampung, Lampung."
               />
             </div>
           </div>
@@ -138,9 +154,13 @@ const Home = () => {
             Layanan Yang Kami Sediakan Untuk Membantu Bisnis Anda
           </div>
         </div>
-        <div data-aos="fade-up" className="wrap mt-5 relative overflow-hidden">
+        <div data-aos="fade-up" className="relative mt-5 overflow-hidden wrap">
           <div className="hero m-auto container h-[300px]  md:h-[490px] md:block flex justify-center">
-            <img className=" h-full" src="Images/service2.png" alt="" />
+            <img
+              className="h-full "
+              src="Images/service2.png"
+              alt="Service Yang Reclas Tech Sediakan Untuk Membantu Bisnis Anda"
+            />
           </div>
           <div className="wrap-card px-0 md:px-5 flex items-center  gap-4 md:absolute overflow-x-auto  scroll-smooth md:top-[20px] p-3 py-5  right-0 md:w-[70%] w-full">
             <CardService
@@ -183,14 +203,18 @@ const Home = () => {
         >
           PRODUK
         </div>
-        <div className="wrap flex flex-wrap md:flex-nowrap gap-3 m-auto container h-full">
+        <div className="container flex flex-wrap h-full gap-3 m-auto wrap md:flex-nowrap">
           <div data-aos="fade-up" className="left w-[100%] md:w-[40%]">
             <div className="subhead text-[22px] md:text-[27px] text-primary max-w-[544px] font-bold">
               Beberapa produk yang telah kami ciptakan. Ayo, mulai perjalanan
               inovasi Anda dengan kami!
             </div>
-            <div className="img mt-5">
-              <img className="h-[270px] m-auto md:h-auto" src="Images/product.png" alt="" />
+            <div className="mt-5 img">
+              <img
+                className="h-[270px] m-auto md:h-auto"
+                src="Images/product.png"
+                alt="Produk yang telah kami ciptakan. Ayo, mulai perjalanan inovasi Anda dengan kami!"
+              />
             </div>
           </div>
           <div className="center hidden md:block w-[2px] bg-primary"></div>
@@ -254,13 +278,13 @@ const Home = () => {
         >
           EDUCATION
         </div>
-        <div className="wrap flex flex-wrap md:flex-nowrap gap-3 m-auto container h-full">
+        <div className="container flex flex-wrap h-full gap-3 m-auto wrap md:flex-nowrap">
           <div data-aos="fade-up" className="left flex flex-col  md:w-[30%]">
             <div className="subhead text-[22px] md:text-[27px] text-white font-bold">
               Belajar adalah investasi terbaik untuk masa depan.
             </div>
             <div className="img w-[90%] m-auto md:w-auto md:mt-24 mt-4 flex justify-center">
-              <img src="Images/education.png" alt="" />
+              <img src="Images/education.png" alt="Reclas Tech" />
             </div>
           </div>
           <div className="center hidden md:block w-[2px] bg-white"></div>
@@ -287,7 +311,7 @@ const Home = () => {
         >
           Peta Jalan Pembuatan Proyek
         </div>
-        <div data-aos="fade-up" className="wrap mt-5 container m-auto ">
+        <div data-aos="fade-up" className="container m-auto mt-5 wrap ">
           {/* <Road /> */}
           <RoadM />
         </div>
@@ -308,7 +332,7 @@ const Home = () => {
         >
           Apa Yang Mereka Rasakan Dengan Reclas Tech
         </div>
-        <div data-aos="fade-up" className="wrap m-auto container">
+        <div data-aos="fade-up" className="container m-auto wrap">
           <CardTesti />
         </div>
       </div>
@@ -324,7 +348,7 @@ const Home = () => {
         </div>
         <div
           data-aos="fade-up"
-          className="wrap w-full  m-auto container flex justify-center"
+          className="container flex justify-center w-full m-auto wrap"
         >
           <TabsRole />
         </div>
@@ -336,13 +360,13 @@ const Home = () => {
         <div className="wrap px-3 md:px-0 flex-wrap text-white container m-auto flex min-h-[250px] md:justify-evenly gap-6 ">
           <div
             data-aos="fade-up"
-            className="left md:flex-nowrap flex-wrap flex gap-3 "
+            className="flex flex-wrap gap-3 left md:flex-nowrap "
           >
             <div className="logo flex justify-center md:w-[200px] w-full">
               <img
                 className="md:h-[174px] h-[130px]"
                 src="Images/footer.png"
-                alt=""
+                alt="Ayo, mulai perjalanan inovasi Anda dengan kami!, Reclas Tech adalah perusahaan pengembangan perangkat lunak yang berlokasi di Bandar Lampung, Lampung."
               />
             </div>
             <div className="alamat w-[300px] flex flex-col justify-between gap-3">
@@ -351,7 +375,7 @@ const Home = () => {
               </div>
               <div className="wrap text-[14px] underline">
                 <div className="no">083838485199</div>
-                <div className="email mt-2 md:mt-4">reclastech@gmail.com</div>
+                <div className="mt-2 email md:mt-4">reclastech@gmail.com</div>
               </div>
             </div>
           </div>
@@ -359,7 +383,7 @@ const Home = () => {
             data-aos="fade-up"
             className="right gap-[30px] flex justify-between  w-full md:w-[40%]"
           >
-            <div className="flex gap-6 flex-col  justify-between">
+            <div className="flex flex-col justify-between gap-6">
               <div className="nav flex gap-[100px]">
                 <div className="navi flex flex-col gap-3 text-[14px]">
                   <a className="font-bold" href="#Home">
@@ -374,7 +398,7 @@ const Home = () => {
                   <a
                     target="_blank"
                     href="https://www.instagram.com/reclas_tech/"
-                    className="wrap flex items-center gap-1"
+                    className="flex items-center gap-1 wrap"
                   >
                     <div className="icon">
                       <img className="w-[15px]" src="Images/ig.svg" alt="" />
@@ -384,7 +408,7 @@ const Home = () => {
                   <a
                     target="_blank"
                     href="https://github.com/reclas-tech"
-                    className="wrap flex items-center gap-1"
+                    className="flex items-center gap-1 wrap"
                   >
                     <div className="icon">
                       <img className="w-[15px]" src="Images/git.svg" alt="" />
@@ -394,7 +418,7 @@ const Home = () => {
                   <a
                     target="_blank"
                     href="mailto:reclastech@gmail.com"
-                    className="wrap flex items-center gap-1"
+                    className="flex items-center gap-1 wrap"
                   >
                     <div className="icon">
                       <img className="w-[15px]" src="Images/email.svg" alt="" />
@@ -404,7 +428,7 @@ const Home = () => {
                   <a
                     target="_blank"
                     href="https://wa.me/6283838485199"
-                    className="wrap flex items-center gap-1"
+                    className="flex items-center gap-1 wrap"
                   >
                     <div className="icon">
                       <img className="w-[15px]" src="Images/wa.svg" alt="" />
