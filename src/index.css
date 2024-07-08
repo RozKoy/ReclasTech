@@ -1,8 +1,6 @@
 /* font */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 /* font */
-
-
 
 @tailwind base;
 @tailwind components;
@@ -12,12 +10,16 @@ html {
   scroll-behavior: smooth;
 }
 
-body{
-  font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-.home, .service, .education, .testi, .footer{
-  background: linear-gradient(108deg, #0A1652 15.41%, #2661B2 76.76%);
+.home,
+.service,
+.education,
+.testi,
+.footer {
+  background: linear-gradient(108deg, #0a1652 15.41%, #2661b2 76.76%);
 }
 
 /* Menyesuaikan warna latar belakang dan lebar scrollbar */
@@ -57,34 +59,33 @@ body{
   /* Firefox */
 }
 
-
 /* road */
-.road1{
+.road1 {
   width: 280px;
-  height : 140px;
+  height: 140px;
   border-radius: 0 0 140px 140px;
-  border-top : none;
+  border-top: none;
 }
-.road2{
+.road2 {
   width: 280px;
-  height : 140px;
+  height: 140px;
   border-radius: 140px 140px 0 0;
-  border-bottom : none;
+  border-bottom: none;
   margin-bottom: 280px;
-  margin-left : -8px;
+  margin-left: -8px;
 }
-.road3{
+.road3 {
   width: 280px;
-  height : 140px;
+  height: 140px;
   border-radius: 0 0 140px 140px;
-  border-top : none;
+  border-top: none;
 }
-.road4{
+.road4 {
   width: 280px;
-  height : 140px;
+  height: 140px;
   border-radius: 140px 140px 0 0;
-  border-bottom : none;
+  border-bottom: none;
   margin-bottom: 280px;
-  margin-left : -8px;
+  margin-left: -8px;
 }
 /* road */
