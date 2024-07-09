@@ -282,33 +282,39 @@ const Home = () => {
 			{/* education */}
 			<div
 				id="education"
-				className="education py-[60px] md:py-[80px] md:px-0 px-3"
+				className="education py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center"
 			>
-				<div
-					data-aos="fade-up"
-					className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"
-				>
-					EDUCATION
-				</div>
-				<div className="container flex flex-wrap h-full gap-3 m-auto wrap md:flex-nowrap">
-					<div
+				<div className="w-full">
+					<h2
 						data-aos="fade-up"
-						className="left flex flex-col  md:w-[30%]"
+						className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center mb-6 text-white"
 					>
-						<div className="subhead text-[22px] md:text-[27px] text-white font-bold">
-							Belajar adalah investasi terbaik untuk masa depan.
+						EDUCATION
+					</h2>
+					<div className="container flex flex-wrap h-full gap-3 m-auto wrap md:flex-nowrap">
+						<div
+							data-aos="fade-up"
+							className="left flex flex-col  md:w-[30%]"
+						>
+							<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-white font-bold">
+								Belajar adalah investasi terbaik untuk masa
+								depan.
+							</h3>
+							<div className="img w-11/12 m-auto md:w-auto md:mt-24 mt-4 flex justify-center">
+								<img
+									src="Images/education.png"
+									alt="Reclas Tech"
+								/>
+							</div>
 						</div>
-						<div className="img w-[90%] m-auto md:w-auto md:mt-24 mt-4 flex justify-center">
-							<img src="Images/education.png" alt="Reclas Tech" />
-						</div>
-					</div>
-					<div className="center hidden md:block w-[2px] bg-white"></div>
-					<div
-						data-aos="fade-up"
-						className="right w-full md:w-[70%] "
-					>
-						<div className="wrap-card flex flex-col gap-3 md:h-[500px] h-[210px] overflow-y-auto">
-							<CouPro />
+						<div className="center hidden md:block w-0.5 rounded-full bg-white"></div>
+						<div
+							data-aos="fade-up"
+							className="right w-full md:w-[70%] "
+						>
+							<div className="wrap-card flex flex-col gap-3 h-full aspect-video overflow-y-auto">
+								<CouPro />
+							</div>
 						</div>
 					</div>
 				</div>
