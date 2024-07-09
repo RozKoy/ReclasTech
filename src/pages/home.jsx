@@ -47,13 +47,13 @@ const Home = () => {
 				<div className="container flex items-center justify-between h-full px-2 m-auto md:px-3">
 					<div data-aos="fade-up" className="left">
 						<div className="wrap-head md:w-[40rem] text-white">
-							<h1 className="head text-[3.75rem] md:text-[6rem] font-bold">
+							<h1 className="head max-[320px]:text-[2.5rem] text-[3.75rem] md:text-[6rem] font-bold">
 								Reclas Tech
 							</h1>
-							<h3 className="subhead text-[2.1rem] md:text-[3.35rem]">
+							<h3 className="subhead max-[320px]:text-[1.4rem] text-[2.1rem] md:text-[3.35rem]">
 								Your Vision, Our Code
 							</h3>
-							<p className="teks text-base md:text-lg text-justify">
+							<p className="teks max-[320px]:text-xs text-base md:text-lg text-justify">
 								Selamat datang di Reclas Tech, di mana inovasi
 								bertemu dengan kualitas. Tim ahli kami dalam
 								pengembangan perangkat lunak, desain kreatif,
@@ -65,7 +65,7 @@ const Home = () => {
 						<div className="mt-14 btnget">
 							<a
 								href="#about"
-								className="bg-white hover:bg-secondary px-8 py-3 rounded-3xl text-lg md:text-xl font-bold text-srBlack hover:text-white transition-all duration-300"
+								className="bg-white hover:bg-secondary max-[320px]:px-6 max-[320px]:py-2.5 px-8 py-3 rounded-3xl max-[320px]:text-sm text-lg md:text-xl font-bold text-srBlack hover:text-white transition-all duration-300"
 							>
 								Ayo Jelajahi
 							</a>
@@ -86,11 +86,11 @@ const Home = () => {
 			{/* Home */}
 
 			{/* About us */}
-			<div id="about" className="bg-srWhite h-screen flex">
-				<div className="container px-2 m-auto md:px-3 flex flex-col gap-10">
+			<div id="about" className="bg-srWhite min-h-screen flex">
+				<div className="container px-2 m-auto py-20 md:px-3 flex flex-col gap-10">
 					<h2
 						data-aos="fade-up"
-						className="head text-4xl md:text-5xl font-bold text-center"
+						className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center"
 					>
 						TENTANG KAMI
 					</h2>
@@ -100,10 +100,10 @@ const Home = () => {
 							data-aos-offset="100"
 							className="wrap-left order-4 md:order-1 w-full md:w-1/2 text-justify"
 						>
-							<h3 className="subhead text-xl md:text-3xl text-primary font-bold">
+							<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-primary font-bold">
 								Awal Perjalanan Dari Reclas Tech
 							</h3>
-							<p className="teks mt-1 text-base md:text-lg text-justify">
+							<p className="teks mt-1 max-[320px]:text-xs text-base md:text-lg text-justify">
 								Kami memulai sebagai programmer baru diluar
 								perguruan tinggi dan berhasil membangun tim yang
 								sekarang menjadi salah satu tim pengembangan
@@ -123,7 +123,7 @@ const Home = () => {
 						</div>
 						<div
 							data-aos="fade-up"
-							className="right m-auto w-52 md:w-72 flex justify-center order-2"
+							className="right m-auto max-[320px]:w-36 w-52 md:w-72 flex justify-center order-2"
 						>
 							<img
 								className="object-cover"
@@ -139,24 +139,24 @@ const Home = () => {
 			{/* service */}
 			<div
 				id="service"
-				className="service py-[60px] md:py-[80px] px-3 md:px-0"
+				className="service min-h-screen py-20 md:py-24 px-2 md:px-3"
 			>
-				<div
+				<h2
 					data-aos="fade-up"
-					className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"
+					className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center text-white"
 				>
 					LAYANAN
-				</div>
-				<div data-aos="fade-up" className="container m-auto">
-					<div className="subhead text-[22px] md:text-[27px] text-white w-[304px] font-bold">
+				</h2>
+				<div data-aos="fade-up" className="container mx-auto my-6">
+					<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-white w-full md:w-96 font-bold">
 						Layanan Yang Kami Sediakan Untuk Membantu Bisnis Anda
-					</div>
+					</h3>
 				</div>
 				<div
 					data-aos="fade-up"
-					className="relative mt-5 overflow-hidden wrap"
+					className="relative overflow-hidden wrap"
 				>
-					<div className="hero m-auto container h-[300px]  md:h-[490px] md:block flex justify-center">
+					<div className="hero m-auto container max-[320px]:h-52 h-80 md:h-[32rem] md:block flex justify-center">
 						<img
 							className="h-full "
 							src="Images/service2.png"
