@@ -34,6 +34,8 @@ const Home = () => {
 				name="keywords"
 				content="Reclas, Inovatif, Developer, Inovasi, ReclasTech, teknologi terkini, pembangunan aplikasi, solusi digital"
 			></meta>
+
+			{/* Home */}
 			<div id="Home" className="w-full h-screen home relative">
 				<div className="absolute w-full h-full z-0 ornament flex">
 					<img
@@ -48,9 +50,9 @@ const Home = () => {
 							<h1 className="head text-[3.75rem] md:text-[6rem] font-bold">
 								Reclas Tech
 							</h1>
-							<h2 className="subhead text-[2.1rem] md:text-[3.35rem]">
+							<h3 className="subhead text-[2.1rem] md:text-[3.35rem]">
 								Your Vision, Our Code
-							</h2>
+							</h3>
 							<p className="teks text-base md:text-lg text-justify">
 								Selamat datang di Reclas Tech, di mana inovasi
 								bertemu dengan kualitas. Tim ahli kami dalam
@@ -71,7 +73,7 @@ const Home = () => {
 					</div>
 					<div
 						data-aos="fade-left"
-						className="z-10 hidden lg:block w-[26rem] aspect-square"
+						className="z-10 hidden xl:block h-[26rem] aspect-[5/4]"
 					>
 						<img
 							className="w-full h-full"
@@ -81,26 +83,27 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			{/* Home */}
 
 			{/* About us */}
-			<div id="about" className="bg-srWhite py-[60px] md:py-[80px]">
-				<div className="container px-3 m-auto md:px-0">
-					<div
+			<div id="about" className="bg-srWhite h-screen flex">
+				<div className="container px-2 m-auto md:px-3 flex flex-col gap-10">
+					<h2
 						data-aos="fade-up"
-						className="head text-[35px] md:text-[40px] font-bold text-center mb-5"
+						className="head text-4xl md:text-5xl font-bold text-center"
 					>
 						TENTANG KAMI
-					</div>
-					<div className="flex flex-wrap items-center justify-between wrap ">
+					</h2>
+					<div className="flex max-md:flex-wrap items-center justify-between gap-3">
 						<div
 							data-aos="fade-up"
 							data-aos-offset="100"
-							className="wrap-lefft order-4 md:order-1 w-[485px] text-justify"
+							className="wrap-left order-4 md:order-1 w-full md:w-1/2 text-justify"
 						>
-							<div className="subhead text-[22px] md:text-[27px] text-primary font-bold">
+							<h3 className="subhead text-xl md:text-3xl text-primary font-bold">
 								Awal Perjalanan Dari Reclas Tech
-							</div>
-							<div className="teks mt-1 text-[16px] md:text-[18px] text-justify">
+							</h3>
+							<p className="teks mt-1 text-base md:text-lg text-justify">
 								Kami memulai sebagai programmer baru diluar
 								perguruan tinggi dan berhasil membangun tim yang
 								sekarang menjadi salah satu tim pengembangan
@@ -116,30 +119,14 @@ const Home = () => {
 								mendengarkan dengan cermat dari klien kami dan
 								kami menyambut baik terhadap umpan balik mereka
 								di setiap tahap proses pengembangan web.
-							</div>
-							{/* video */}
-							{/* <div className="inline-block mt-5">
-                <a
-                  href=""
-                  className="btn rounded-[15px] px-6 py-2 transition-all duration-300  hover:bg-secondary bg-primary flex items-center gap-1"
-                >
-                  <img
-                    className="h-[35px] md:h-[40px] w-[35px] md:w-[40px] flex-shrink-0"
-                    src="Images/play.png"
-                    alt=""
-                  />
-                  <div className="md:text-[16px] text-[14px] font-semibold text-white">
-                    Click on our short profile video{" "}
-                  </div>
-                </a>
-              </div> */}
+							</p>
 						</div>
 						<div
 							data-aos="fade-up"
-							className="right w-full md:w-[50%] flex justify-center order-2"
+							className="right m-auto w-52 md:w-72 flex justify-center order-2"
 						>
 							<img
-								className="md:w-[340px] w-[180px] object-cover"
+								className="object-cover"
 								src="Images/reclas.png"
 								alt="Reclas Tech adalah perusahaan pengembangan perangkat lunak yang berlokasi di Bandar Lampung, Lampung."
 							/>
