@@ -322,22 +322,23 @@ const Home = () => {
 			{/* education */}
 
 			{/* roadmap */}
-			<div className="roadmap py-[60px] md:py-[80px] md:px-0 px-3 bg-srWhite">
-				<div
-					data-aos="fade-up"
-					className="head text-[35px] md:text-[40px] font-bold text-center mb-5 "
-				>
-					ROADMAP
-				</div>
-				<div
-					data-aos="fade-up"
-					className="subhead text-[22px] md:text-[27px] text-primary md:text-start text-center m-auto container font-bold"
-				>
-					Peta Jalan Pembuatan Proyek
-				</div>
-				<div data-aos="fade-up" className="container m-auto mt-5 wrap ">
-					{/* <Road /> */}
-					<RoadM />
+			<div className="roadmap py-20 md:py-24 md:px-3 px-2 bg-srWhite min-h-screen flex items-center">
+				<div className="w-full">
+					<h2
+						data-aos="fade-up"
+						className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center "
+					>
+						ROADMAP
+					</h2>
+					<h3
+						data-aos="fade-up"
+						className="subhead max-[320px]:text-sm text-xl md:text-3xl text-primary text-center mx-auto my-6 container font-bold"
+					>
+						Peta Jalan Pembuatan Proyek
+					</h3>
+					<div data-aos="fade-up" className="container m-auto wrap ">
+						<RoadM />
+					</div>
 				</div>
 			</div>
 			{/* roadmap */}
