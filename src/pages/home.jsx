@@ -139,55 +139,58 @@ const Home = () => {
 			{/* service */}
 			<div
 				id="service"
-				className="service min-h-screen py-20 md:py-24 px-2 md:px-3"
+				className="service min-h-screen py-20 md:py-24 px-2 md:px-3 flex items-center"
 			>
-				<h2
-					data-aos="fade-up"
-					className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center text-white"
-				>
-					LAYANAN
-				</h2>
-				<div data-aos="fade-up" className="container mx-auto my-6">
-					<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-white w-full md:w-96 font-bold">
-						Layanan Yang Kami Sediakan Untuk Membantu Bisnis Anda
-					</h3>
-				</div>
-				<div
-					data-aos="fade-up"
-					className="relative overflow-hidden wrap"
-				>
-					<div className="hero m-auto container max-[320px]:h-52 h-80 md:h-[32rem] md:block flex justify-center">
-						<img
-							className="h-full "
-							src="Images/service2.png"
-							alt="Service Yang Reclas Tech Sediakan Untuk Membantu Bisnis Anda"
-						/>
+				<div className="w-full">
+					<h2
+						data-aos="fade-up"
+						className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center text-white"
+					>
+						LAYANAN
+					</h2>
+					<div data-aos="fade-up" className="container mx-auto my-6">
+						<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-white w-full md:w-96 font-bold">
+							Layanan Yang Kami Sediakan Untuk Membantu Bisnis
+							Anda
+						</h3>
 					</div>
-					<div className="wrap-card px-0 md:px-5 flex items-center  gap-4 md:absolute overflow-x-auto  scroll-smooth md:top-[20px] p-3 py-5  right-0 md:w-[70%] w-full">
-						<CardService
-							service="Web Application Dev"
-							teks="Tim akan memproses pengembangan perangkat lunak yang bertujuan untuk membuat aplikasi yang dapat diakses melalui web browser. Proses pengembangan ini mencakup berbagai langkah mulai dari perencanaan, desain, pengembangan, pengujian, hingga implementasi aplikasi web yang interaktif dan fungsional."
-						>
-							<Team />
-						</CardService>
-						<CardService
-							service="Mobile Application Dev"
-							teks="Tim akan membuat aplikasi perangkat lunak yang dirancang khusus untuk digunakan pada perangkat mobile seperti smartphone dan tablet. Proses ini melibatkan serangkaian langkah yang mirip dengan pengembangan aplikasi web, tetapi dengan fokus pada platform mobile dan karakteristik uniknya sesuai dengan kebutuhan klien."
-						>
-							<Team />
-						</CardService>
-						<CardService
-							service="Custom Software Dev"
-							teks="Tim akan memproses pengembangan perangkat lunak yang dirancang khusus untuk memenuhi kebutuhan unik dan spesifik suatu organisasi atau individu. Berbeda dengan perangkat lunak yang sudah jadi yang umumnya dirancang untuk penggunaan umum, perangkat lunak kustom dibangun dari awal atau dimodifikasi secara mendalam."
-						>
-							<Team />
-						</CardService>
-						<CardService
-							service="Graphic Design"
-							teks="Tim akan menciptakan dan menggabungkan elemen visual, seperti gambar, teks, dan grafik, untuk menyampaikan pesan atau informasi dengan cara yang efektif dan menarik. Ini adalah bidang seni dan desain yang melibatkan kreativitas, pemahaman tentang prinsip desain, dan penggunaan alat desain grafis komputer."
-						>
-							<Team />
-						</CardService>
+					<div
+						data-aos="fade-up"
+						className="relative overflow-hidden wrap"
+					>
+						<div className="hero m-auto container max-[320px]:h-52 h-80 md:h-[32rem] md:block flex justify-center">
+							<img
+								className="h-full "
+								src="Images/service2.png"
+								alt="Service Yang Reclas Tech Sediakan Untuk Membantu Bisnis Anda"
+							/>
+						</div>
+						<div className="wrap-card px-0 md:px-5 flex items-center  gap-4 md:absolute overflow-x-auto  scroll-smooth md:top-[20px] p-3 py-5  right-0 md:w-[70%] w-full">
+							<CardService
+								service="Web Application Dev"
+								teks="Tim akan memproses pengembangan perangkat lunak yang bertujuan untuk membuat aplikasi yang dapat diakses melalui web browser. Proses pengembangan ini mencakup berbagai langkah mulai dari perencanaan, desain, pengembangan, pengujian, hingga implementasi aplikasi web yang interaktif dan fungsional."
+							>
+								<Team />
+							</CardService>
+							<CardService
+								service="Mobile Application Dev"
+								teks="Tim akan membuat aplikasi perangkat lunak yang dirancang khusus untuk digunakan pada perangkat mobile seperti smartphone dan tablet. Proses ini melibatkan serangkaian langkah yang mirip dengan pengembangan aplikasi web, tetapi dengan fokus pada platform mobile dan karakteristik uniknya sesuai dengan kebutuhan klien."
+							>
+								<Team />
+							</CardService>
+							<CardService
+								service="Custom Software Dev"
+								teks="Tim akan memproses pengembangan perangkat lunak yang dirancang khusus untuk memenuhi kebutuhan unik dan spesifik suatu organisasi atau individu. Berbeda dengan perangkat lunak yang sudah jadi yang umumnya dirancang untuk penggunaan umum, perangkat lunak kustom dibangun dari awal atau dimodifikasi secara mendalam."
+							>
+								<Team />
+							</CardService>
+							<CardService
+								service="Graphic Design"
+								teks="Tim akan menciptakan dan menggabungkan elemen visual, seperti gambar, teks, dan grafik, untuk menyampaikan pesan atau informasi dengan cara yang efektif dan menarik. Ini adalah bidang seni dan desain yang melibatkan kreativitas, pemahaman tentang prinsip desain, dan penggunaan alat desain grafis komputer."
+							>
+								<Team />
+							</CardService>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -196,78 +199,80 @@ const Home = () => {
 			{/* product */}
 			<div
 				id="product"
-				className="product bg-srWhite py-[60px] md:py-[80px] md:px-0 px-3"
+				className="product bg-srWhite py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center"
 			>
-				<div
-					data-aos="fade-up"
-					className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-black"
-				>
-					PRODUK
-				</div>
-				<div className="container flex flex-wrap h-full gap-3 m-auto wrap md:flex-nowrap">
-					<div
+				<div className="w-full">
+					<h2
 						data-aos="fade-up"
-						className="left w-[100%] md:w-[40%]"
+						className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center mb-6 text-black"
 					>
-						<div className="subhead text-[22px] md:text-[27px] text-primary max-w-[544px] font-bold">
-							Beberapa produk yang telah kami ciptakan. Ayo, mulai
-							perjalanan inovasi Anda dengan kami!
+						PRODUK
+					</h2>
+					<div className="container flex flex-wrap h-full gap-3 m-auto wrap md:flex-nowrap">
+						<div
+							data-aos="fade-up"
+							className="left w-full md:w-2/5"
+						>
+							<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-primary max-w-[45rem] font-bold">
+								Beberapa produk yang telah kami ciptakan. Ayo,
+								mulai perjalanan inovasi Anda dengan kami!
+							</h3>
+							<div className="mt-5 img">
+								<img
+									className="h-72 m-auto md:h-auto"
+									src="Images/product.png"
+									alt="Produk yang telah kami ciptakan. Ayo, mulai perjalanan inovasi Anda dengan kami!"
+								/>
+							</div>
 						</div>
-						<div className="mt-5 img">
-							<img
-								className="h-[270px] m-auto md:h-auto"
-								src="Images/product.png"
-								alt="Produk yang telah kami ciptakan. Ayo, mulai perjalanan inovasi Anda dengan kami!"
-							/>
-						</div>
-					</div>
-					<div className="center hidden md:block w-[2px] bg-primary"></div>
-					<div
-						data-aos="fade-up"
-						className="right w-[100%] md:w-[60%] "
-					>
-						<div className="wrap-card flex flex-col gap-3  h-[550px] overflow-y-auto md:px-3 px-0">
-							<CardProduct
-								img="Images/pro1.jpg"
-								title="Bimbel Griselda"
-								teks="Bimbel Griselda merupakan sebuah website bimbel yang menyediakan layanan bimbel baik dari sekolah dasar hingga atas dan juga terbuka untuk umum dalam dunia pendidikan."
-							/>
-							<CardProduct
-								img="Images/pro2.jpg"
-								title="PT. ElyNaz IndoMasr Global"
-								teks="PT. ElyNaz IndoMasr Global merupakan sebuah website company profile yang menampilkan profile dari PT. Elynaz IndoMasr yang bergerak pada bidang Home Cleaning dan Catering."
-							/>
-							<CardProduct
-								img="Images/pro3.jpg"
-								title="POS Yang's Grosir"
-								teks="POS Yang's Grosir merupakan sebuah website point of sale atau kasir yang dapat melakukan transaksi belaja dari konsumen serta dapat menampilkan laporan keuangn dari toko retail."
-							/>
-							<CardProduct
-								img="Images/pro4.jpg"
-								title="Slaxx Distro Store"
-								teks="Slaxx Distro Store merupakan sebuah website toko distro baju yang menampilkan produk serta dapat melakukan transaksi pembelian dari produk baju yang tersedia dalam website."
-							/>
-							<CardProduct
-								img="Images/pro4a.jpg"
-								title="Kedai Bu Titin"
-								teks="Kedai Bu Titin merupakan sebuah website warung makan ayam geprek dimana konsumen dapat memesan melalui website serta toko dapat mencatat inventaris seperti bahan baku toko."
-							/>
-							<CardProduct
-								img="Images/pro5.jpg"
-								title="BUBOO Book Store"
-								teks="BuBoo Store Book merupakan aplikasi toko buku online dimana konsumen dapat melihat berbagai daftar buku yang dijual dan dapat melakukan pembelian didalam website.
+						<div className="center hidden md:block w-0.5 rounded-full bg-primary"></div>
+						<div
+							data-aos="fade-up"
+							className="right w-full md:w-3/5 "
+						>
+							<div className="wrap-card flex flex-col gap-3 h-[38rem] overflow-y-auto md:px-3 px-1">
+								<CardProduct
+									img="Images/pro1.jpg"
+									title="Bimbel Griselda"
+									teks="Bimbel Griselda merupakan sebuah website bimbel yang menyediakan layanan bimbel baik dari sekolah dasar hingga atas dan juga terbuka untuk umum dalam dunia pendidikan."
+								/>
+								<CardProduct
+									img="Images/pro2.jpg"
+									title="PT. ElyNaz IndoMasr Global"
+									teks="PT. ElyNaz IndoMasr Global merupakan sebuah website company profile yang menampilkan profile dari PT. Elynaz IndoMasr yang bergerak pada bidang Home Cleaning dan Catering."
+								/>
+								<CardProduct
+									img="Images/pro3.jpg"
+									title="POS Yang's Grosir"
+									teks="POS Yang's Grosir merupakan sebuah website point of sale atau kasir yang dapat melakukan transaksi belaja dari konsumen serta dapat menampilkan laporan keuangn dari toko retail."
+								/>
+								<CardProduct
+									img="Images/pro4.jpg"
+									title="Slaxx Distro Store"
+									teks="Slaxx Distro Store merupakan sebuah website toko distro baju yang menampilkan produk serta dapat melakukan transaksi pembelian dari produk baju yang tersedia dalam website."
+								/>
+								<CardProduct
+									img="Images/pro4a.jpg"
+									title="Kedai Bu Titin"
+									teks="Kedai Bu Titin merupakan sebuah website warung makan ayam geprek dimana konsumen dapat memesan melalui website serta toko dapat mencatat inventaris seperti bahan baku toko."
+								/>
+								<CardProduct
+									img="Images/pro5.jpg"
+									title="BUBOO Book Store"
+									teks="BuBoo Store Book merupakan aplikasi toko buku online dimana konsumen dapat melihat berbagai daftar buku yang dijual dan dapat melakukan pembelian didalam website.
 "
-							/>
-							<CardProduct
-								img="Images/pro5a.jpg"
-								title="Toko Sayuran Online"
-								teks="Toko Sayuran Online merupakan aplikasi toko sayuran dimana konsumen dapat melihat berbagai sayuran yang dijual dan dapat melakukan pembelian didalam website secara online."
-							/>
-							<CardProduct
-								img="Images/pro6.jpg"
-								title="Game Petualangan Si Pele"
-								teks="Game Petualangan Si Pele merupakan sebuah game yang memiliki alur dimana seorang anak bernama pele akan mengalami suatu kejadian mistis dalam perjalanan menuju rumah."
-							/>
+								/>
+								<CardProduct
+									img="Images/pro5a.jpg"
+									title="Toko Sayuran Online"
+									teks="Toko Sayuran Online merupakan aplikasi toko sayuran dimana konsumen dapat melihat berbagai sayuran yang dijual dan dapat melakukan pembelian didalam website secara online."
+								/>
+								<CardProduct
+									img="Images/pro6.jpg"
+									title="Game Petualangan Si Pele"
+									teks="Game Petualangan Si Pele merupakan sebuah game yang memiliki alur dimana seorang anak bernama pele akan mengalami suatu kejadian mistis dalam perjalanan menuju rumah."
+								/>
+							</div>
 						</div>
 					</div>
 				</div>
