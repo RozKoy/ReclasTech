@@ -369,18 +369,20 @@ const Home = () => {
 			{/* Testi */}
 
 			{/* role */}
-			<div className="role py-[60px] md:py-[80px] bg-srWhite">
-				<div
-					data-aos="fade-up"
-					className="head text-[35px] md:text-[40px]  font-bold text-center mb-5 "
-				>
-					TEAM GRUP
-				</div>
-				<div
-					data-aos="fade-up"
-					className="container flex justify-center w-full m-auto wrap"
-				>
-					<TabsRole />
+			<div className="role py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center bg-srWhite">
+				<div className="w-full">
+					<h2
+						data-aos="fade-up"
+						className="head max-[320px]:text-2xl text-4xl md:text-5xl  font-bold text-center mb-6"
+					>
+						TEAM GRUP
+					</h2>
+					<div
+						data-aos="fade-up"
+						className="container flex justify-center w-full m-auto wrap"
+					>
+						<TabsRole />
+					</div>
 				</div>
 			</div>
 			{/* role */}
