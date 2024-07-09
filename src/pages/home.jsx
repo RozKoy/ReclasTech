@@ -332,7 +332,7 @@ const Home = () => {
 					</h2>
 					<h3
 						data-aos="fade-up"
-						className="subhead max-[320px]:text-sm text-xl md:text-3xl text-primary text-center mx-auto my-6 container font-bold"
+						className="subhead max-[320px]:text-sm text-xl md:text-3xl text-primary text-center md:text-start mx-auto my-6 container font-bold"
 					>
 						Peta Jalan Pembuatan Proyek
 					</h3>
@@ -346,22 +346,24 @@ const Home = () => {
 			{/* Testi */}
 			<div
 				id="testi"
-				className="testi py-[60px] md:py-[80px] md:px-0 px-3"
+				className="testi py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center"
 			>
-				<div
-					data-aos="fade-up"
-					className="head text-[35px] md:text-[40px] font-bold text-center mb-5 text-white"
-				>
-					Testimoni
-				</div>
-				<div
-					data-aos="fade-up"
-					className="subhead text-[22px] md:text-[27px] text-white m-auto container font-bold mb-4"
-				>
-					Apa Yang Mereka Rasakan Dengan Reclas Tech
-				</div>
-				<div data-aos="fade-up" className="container m-auto wrap">
-					<CardTesti />
+				<div className="w-full">
+					<h2
+						data-aos="fade-up"
+						className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center text-white"
+					>
+						Testimoni
+					</h2>
+					<h3
+						data-aos="fade-up"
+						className="subhead max-[320px]:text-sm text-xl md:text-3xl text-white m-auto container font-bold my-6"
+					>
+						Apa Yang Mereka Rasakan Dengan Reclas Tech
+					</h3>
+					<div data-aos="fade-up" className="container m-auto wrap">
+						<CardTesti />
+					</div>
 				</div>
 			</div>
 			{/* Testi */}
