@@ -388,24 +388,24 @@ const Home = () => {
 			{/* role */}
 
 			{/* FOOTER */}
-			<div id="contact" className="footer py-[60px] md:py-[80px]">
-				<div className="wrap px-3 md:px-0 flex-wrap text-white container m-auto flex min-h-[250px] md:justify-evenly gap-6 ">
+			<div id="contact" className="footer py-20 md:py-24 md:px-3 px-2">
+				<div className="wrap max-md:flex-col text-white container m-auto flex min-h-[16rem] md:justify-around gap-y-10">
 					<div
 						data-aos="fade-up"
-						className="flex flex-wrap gap-3 left md:flex-nowrap "
+						className="flex flex-wrap gap-3 left md:flex-nowrap"
 					>
-						<div className="logo flex justify-center md:w-[200px] w-full">
+						<div className="logo flex justify-center md:w-40 w-full">
 							<img
-								className="md:h-[174px] h-[130px]"
+								className="md:h-44 h-36"
 								src="Images/footer.png"
 								alt="Ayo, mulai perjalanan inovasi Anda dengan kami!, Reclas Tech adalah perusahaan pengembangan perangkat lunak yang berlokasi di Bandar Lampung, Lampung."
 							/>
 						</div>
-						<div className="alamat w-[300px] flex flex-col justify-between gap-3">
-							<div className="add text-[20px] md:text-[24px] text-white">
+						<div className="alamat w-60 flex flex-col justify-between gap-3 bg-pink-300 mx-auto">
+							<h5 className="add max-[320px]:text-base text-xl md:text-2xl text-white">
 								Bandar Lampung, Lampung
-							</div>
-							<div className="wrap text-[14px] underline">
+							</h5>
+							<div className="wrap max-[320px]:text-sm text-base md:text-lg underline">
 								<div className="no">083838485199</div>
 								<div className="mt-2 email md:mt-4">
 									reclastech@gmail.com
@@ -415,11 +415,11 @@ const Home = () => {
 					</div>
 					<div
 						data-aos="fade-up"
-						className="right gap-[30px] flex justify-between  w-full md:w-[40%]"
+						className="right gap-1 flex justify-around w-full md:w-1/2"
 					>
-						<div className="flex flex-col justify-between gap-6">
-							<div className="nav flex gap-[100px]">
-								<div className="navi flex flex-col gap-3 text-[14px]">
+						<div className="flex flex-col justify-between max-md:m-auto">
+							<div className="nav flex gap-3 max-md:gap-6 justify-between">
+								<div className="navi flex flex-col gap-3 text-sm">
 									<a className="font-bold" href="#Home">
 										Beranda
 									</a>
@@ -428,7 +428,7 @@ const Home = () => {
 									<a href="#testi">Testimoni</a>
 									<a href="#contact">Kontak</a>
 								</div>
-								<div className="sosmed flex flex-col gap-3 text-[14px]">
+								<div className="sosmed flex flex-col gap-3 text-sm">
 									<a
 										target="_blank"
 										href="https://www.instagram.com/reclas_tech/"
