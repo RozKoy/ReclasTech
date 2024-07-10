@@ -401,7 +401,7 @@ const Home = () => {
 								alt="Ayo, mulai perjalanan inovasi Anda dengan kami!, Reclas Tech adalah perusahaan pengembangan perangkat lunak yang berlokasi di Bandar Lampung, Lampung."
 							/>
 						</div>
-						<div className="alamat w-60 flex flex-col justify-between gap-3 bg-pink-300 mx-auto">
+						<div className="alamat w-60 flex flex-col justify-between gap-3 mx-auto">
 							<h5 className="add max-[320px]:text-base text-xl md:text-2xl text-white">
 								Bandar Lampung, Lampung
 							</h5>
