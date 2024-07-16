@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/index-88ba50a6.js
+Disallow: /assets/index-49a234c4.css
+Allow: /public/Images/*
