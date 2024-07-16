@@ -24,11 +24,7 @@ const Home = () => {
 			<Navbar />
 			<meta
 				name="description"
-				content="Selamat datang di Reclas Tech, di mana inovasi bertemu dengan
-                kualitas. Tim ahli kami dalam pengembangan perangkat lunak,
-                desain kreatif, dan manajemen proyek siap untuk mewujudkan
-                ide-ide brilian Anda menjadi kenyataan. Mari ciptakan masa depan
-                bersama!"
+				content="Selamat datang di Reclas Tech, di sini inovasi dan kualitas bersatu. Tim ahli kami di pengembangan perangkat lunak, desain kreatif, dan manajemen proyek siap wujudkan ide brilian Anda. Ayo ciptakan masa depan!"
 			/>
 			<meta
 				name="keywords"
@@ -36,8 +32,8 @@ const Home = () => {
 			></meta>
 
 			{/* Home */}
-			<div id="Home" className="w-full h-screen home relative">
-				<div className="absolute w-full h-full z-0 ornament flex">
+			<div id="Home" className="relative w-full h-screen home">
+				<div className="absolute z-0 flex w-full h-full ornament">
 					<img
 						className="h-[36rem] md:h-[42rem] object-cover ml-auto mt-auto"
 						src="Images/ornament2.png"
@@ -86,19 +82,19 @@ const Home = () => {
 			{/* Home */}
 
 			{/* About us */}
-			<div id="about" className="bg-srWhite min-h-screen flex">
-				<div className="container px-2 m-auto py-20 md:px-3 flex flex-col gap-10">
+			<div id="about" className="flex min-h-screen bg-srWhite">
+				<div className="container flex flex-col gap-10 px-2 py-20 m-auto md:px-3">
 					<h2
 						data-aos="fade-up"
 						className="head max-[320px]:text-2xl text-4xl md:text-5xl font-bold text-center"
 					>
 						TENTANG KAMI
 					</h2>
-					<div className="flex max-md:flex-wrap items-center justify-between gap-3">
+					<div className="flex items-center justify-between gap-3 max-md:flex-wrap">
 						<div
 							data-aos="fade-up"
 							data-aos-offset="100"
-							className="wrap-left order-4 md:order-1 w-full md:w-1/2 text-justify"
+							className="order-4 w-full text-justify wrap-left md:order-1 md:w-1/2"
 						>
 							<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-primary font-bold">
 								Awal Perjalanan Dari Reclas Tech
@@ -139,7 +135,7 @@ const Home = () => {
 			{/* service */}
 			<div
 				id="service"
-				className="service min-h-screen py-20 md:py-24 px-2 md:px-3 flex items-center"
+				className="flex items-center min-h-screen px-2 py-20 service md:py-24 md:px-3"
 			>
 				<div className="w-full">
 					<h2
@@ -199,7 +195,7 @@ const Home = () => {
 			{/* product */}
 			<div
 				id="product"
-				className="product bg-srWhite py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center"
+				className="flex items-center min-h-screen px-2 py-20 product bg-srWhite md:py-24 md:px-3"
 			>
 				<div className="w-full">
 					<h2
@@ -211,7 +207,7 @@ const Home = () => {
 					<div className="container flex flex-wrap h-full gap-3 m-auto wrap md:flex-nowrap">
 						<div
 							data-aos="fade-up"
-							className="left w-full md:w-2/5"
+							className="w-full left md:w-2/5"
 						>
 							<h3 className="subhead max-[320px]:text-sm text-xl md:text-3xl text-primary max-w-[45rem] font-bold">
 								Beberapa produk yang telah kami ciptakan. Ayo,
@@ -219,7 +215,7 @@ const Home = () => {
 							</h3>
 							<div className="mt-5 img">
 								<img
-									className="h-72 m-auto md:h-auto"
+									className="m-auto h-72 md:h-auto"
 									src="Images/product.png"
 									alt="Produk yang telah kami ciptakan. Ayo, mulai perjalanan inovasi Anda dengan kami!"
 								/>
@@ -228,7 +224,7 @@ const Home = () => {
 						<div className="center hidden md:block w-0.5 rounded-full bg-primary"></div>
 						<div
 							data-aos="fade-up"
-							className="right w-full md:w-3/5 "
+							className="w-full right md:w-3/5 "
 						>
 							<div className="wrap-card flex flex-col gap-3 h-[38rem] overflow-y-auto md:px-3 px-1">
 								<CardProduct
@@ -282,7 +278,7 @@ const Home = () => {
 			{/* education */}
 			<div
 				id="education"
-				className="education py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center"
+				className="flex items-center min-h-screen px-2 py-20 education md:py-24 md:px-3"
 			>
 				<div className="w-full">
 					<h2
@@ -300,7 +296,7 @@ const Home = () => {
 								Belajar adalah investasi terbaik untuk masa
 								depan.
 							</h3>
-							<div className="img w-11/12 m-auto md:w-auto md:mt-24 mt-4 flex justify-center">
+							<div className="flex justify-center w-11/12 m-auto mt-4 img md:w-auto md:mt-24">
 								<img
 									src="Images/education.png"
 									alt="Reclas Tech"
@@ -312,7 +308,7 @@ const Home = () => {
 							data-aos="fade-up"
 							className="right w-full md:w-[70%] "
 						>
-							<div className="wrap-card flex flex-col gap-3 h-full aspect-video overflow-y-auto">
+							<div className="flex flex-col h-full gap-3 overflow-y-auto wrap-card aspect-video">
 								<CouPro />
 							</div>
 						</div>
@@ -322,7 +318,7 @@ const Home = () => {
 			{/* education */}
 
 			{/* roadmap */}
-			<div className="roadmap py-20 md:py-24 md:px-3 px-2 bg-srWhite min-h-screen flex items-center">
+			<div className="flex items-center min-h-screen px-2 py-20 roadmap md:py-24 md:px-3 bg-srWhite">
 				<div className="w-full">
 					<h2
 						data-aos="fade-up"
@@ -346,7 +342,7 @@ const Home = () => {
 			{/* Testi */}
 			<div
 				id="testi"
-				className="testi py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center"
+				className="flex items-center min-h-screen px-2 py-20 testi md:py-24 md:px-3"
 			>
 				<div className="w-full">
 					<h2
@@ -369,7 +365,7 @@ const Home = () => {
 			{/* Testi */}
 
 			{/* role */}
-			<div className="role py-20 md:py-24 md:px-3 px-2 min-h-screen flex items-center bg-srWhite">
+			<div className="flex items-center min-h-screen px-2 py-20 role md:py-24 md:px-3 bg-srWhite">
 				<div className="w-full">
 					<h2
 						data-aos="fade-up"
@@ -388,20 +384,20 @@ const Home = () => {
 			{/* role */}
 
 			{/* FOOTER */}
-			<div id="contact" className="footer py-20 md:py-24 md:px-3 px-2">
+			<div id="contact" className="px-2 py-20 footer md:py-24 md:px-3">
 				<div className="wrap max-md:flex-col text-white container m-auto flex min-h-[16rem] md:justify-around gap-y-10">
 					<div
 						data-aos="fade-up"
 						className="flex flex-wrap gap-3 left md:flex-nowrap"
 					>
-						<div className="logo flex justify-center md:w-40 w-full">
+						<div className="flex justify-center w-full logo md:w-40">
 							<img
 								className="md:h-44 h-36"
 								src="Images/footer.png"
 								alt="Ayo, mulai perjalanan inovasi Anda dengan kami!, Reclas Tech adalah perusahaan pengembangan perangkat lunak yang berlokasi di Bandar Lampung, Lampung."
 							/>
 						</div>
-						<div className="alamat w-60 flex flex-col justify-between gap-3 mx-auto">
+						<div className="flex flex-col justify-between gap-3 mx-auto alamat w-60">
 							<h5 className="add max-[320px]:text-base text-xl md:text-2xl text-white">
 								Bandar Lampung, Lampung
 							</h5>
@@ -415,11 +411,11 @@ const Home = () => {
 					</div>
 					<div
 						data-aos="fade-up"
-						className="right gap-1 flex justify-around w-full md:w-1/2"
+						className="flex justify-around w-full gap-1 right md:w-1/2"
 					>
 						<div className="flex flex-col justify-between max-md:m-auto">
-							<div className="nav flex gap-3 max-md:gap-6 justify-between">
-								<div className="navi flex flex-col gap-3 text-sm">
+							<div className="flex justify-between gap-3 nav max-md:gap-6">
+								<div className="flex flex-col gap-3 text-sm navi">
 									<a className="font-bold" href="#Home">
 										Beranda
 									</a>
@@ -428,7 +424,7 @@ const Home = () => {
 									<a href="#testi">Testimoni</a>
 									<a href="#contact">Kontak</a>
 								</div>
-								<div className="sosmed flex flex-col gap-3 text-sm">
+								<div className="flex flex-col gap-3 text-sm sosmed">
 									<a
 										target="_blank"
 										href="https://www.instagram.com/reclas_tech/"
